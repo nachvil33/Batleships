@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Battleship Game</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 
 <body>
@@ -15,6 +16,7 @@
       <p>Coloca tus barcos en el tablero. Puedes rotarlos usando la tecla 'R'.</p>
       <p>Haz clic en el tablero para posicionar tus barcos. Juega contra la máquina.</p>
     </div>
+    <button id="start-button">Iniciar Juego</button>
     <div id="player-container" class="ship-container">
       <div class="ship" data-ship="Carrier" draggable="true">
         <img src="src/Aircraft_carrier.png" alt="Carrier">
@@ -45,7 +47,7 @@
     <div id="player-board" class="board"></div>
     <div id="computer-board" class="board"></div>
   </div>
-  <script type="module" src="bundle.js"></script>
+  <script type="module" src="dist/bundle.js"></script>
 </body>
 
 </html>

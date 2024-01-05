@@ -11,6 +11,4 @@ function createShip(length) {
   };
   return ship;
 }
-
-// Si estás usando módulos ES6, descomenta la siguiente línea
-// export default createShip;
+module.exports = createShip;
